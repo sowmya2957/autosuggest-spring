@@ -1,29 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Suggest</title>
+
+    <title>Being Infinity</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="index.css">
+
 </head>
+
 <body>
-    <!-- <h1>Hello World!</h1> -->
-     <div class="navbar">
-        <a href="">Home</a>
-        <a href="https://github.com/">Github</a>
-        <a href="">Leetcode</a>
-        <a href="">Autosuggest</a>
-     </div>
-     <div class="card">
-        <img src="john.png" alt="Image not found">
-        <h3 id="user-name">John Doe</h3>
-        <p>Male</p>
-        <button>Toggle User</button>
-        <br>
-        <br>
-        <button>Random User</button>
-     </div>
+
+    <nav class="navbar">
+
+       <div class="logo">
+
+    <img src="being-infinity.png" alt="Being Infinity Logo">
+
+    <div class="logo-text">
+
+        <h2>Being Infinity</h2>
+
+        <p>VNRVJIET • Web Development Bootcamp</p>
+
+    </div>
+
+</div>
+        <div class="nav-links">
+
+            <a href="#">Home</a>
+
+            <a href="https://github.com/" target="_blank">Github</a>
+
+            <a href="#">LeetCode</a>
+
+            <a href="#">Auto Suggest</a>
+
+        </div>
+
+    </nav>
+
+    <main>
+
+        <div class="card">
+
+            <img
+                id="user-image"
+                src="john.png"
+                alt="User Image">
+
+            <div class="card-content">
+
+                <h2 id="user-name">John Doe</h2>
+
+                <p id="user-gender">Male</p>
+
+                <button class="toggle-btn" onclick="toggleUser()">
+
+                    Toggle User
+
+                </button>
+
+                <button class="random-btn" onclick="randomUser()">
+
+                    Random User
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </main>
 
     <script src="index.js"></script>
+
 </body>
+
 </html>
