@@ -1,3 +1,53 @@
-h1{
-    color:rgb(43, 226, 153);
+body{
+    margin: 0px;
+    background-color: rgb(255, 244, 180);
 }
+
+h1 {
+    color: red;
+}
+
+.navbar{
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(179, 225, 255, 0.829);
+}
+
+.navbar a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+ .navbar a:hover{
+    color: rgba(255, 179, 206, 0.687);
+    background-color: rgba(255, 179, 206, 0.687);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+ }
+
+ .card{
+    border: 1px solid burgundy;
+    width: 350px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 70px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    background-color:rgba(255, 179, 206, 0.687);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ }
+ 
+ .card img{
+    width: 100%;
+ }
+
+ .card button{
+    border-style: none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 8px;
+ }
